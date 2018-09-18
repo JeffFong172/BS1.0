@@ -3,4 +3,4 @@ var test = new Vue({
     data: {
         message: 'hello'
     }
-})
+});

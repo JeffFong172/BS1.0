@@ -1,25 +1,26 @@
 {
-  "name": "BS1.0",
-  "version": "1.0.0",
-  "description": "第一个GitHub项目",
-  "main": "index.js",
-  "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
-  },
-  "repository": {
-    "type": "git",
-    "url": "git+https://github.com/JeffFong172/BS1.0.git"
-  },
-  "keywords": [],
-  "author": "",
-  "license": "ISC",
-  "bugs": {
-    "url": "https://github.com/JeffFong172/BS1.0/issues"
-  },
-  "homepage": "https://github.com/JeffFong172/BS1.0#readme",
-  "dependencies": {
-    "bootstrap": "^4.1.3",
-    "jQuery": "^1.7.4",
-    "vue": "^2.5.17"
-  }
+    "name": "BS1.0",
+    "version": "1.0.0",
+    "description": "第一个GitHub项目",
+    "main": "index.js",
+    "scripts": {
+        "test": "echo \"Error: no test specified\" && exit 1"
+    },
+    "repository": {
+        "type": "git",
+        "url": "git+https://github.com/JeffFong172/BS1.0.git"
+    },
+    "keywords": [],
+    "author": "Jeff",
+    "license": "ISC",
+    "bugs": {
+        "url": "https://github.com/JeffFong172/BS1.0/issues"
+    },
+    "homepage": "https://github.com/JeffFong172/BS1.0#readme",
+    "dependencies": {
+        "bootstrap": "^4.1.3",
+        "jquery": "^3.3.1",
+        "vue": "^2.5.17",
+        "vue-router": "^3.0.1"
+    }
 }
