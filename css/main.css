@@ -1,0 +1,16 @@
+img {
+    display: block;
+    max-width: 100%;
+    border-radius: 5px;
+}
+
+.new-list-item .title {
+    font-size: 18px;
+    font-weight: bold;
+    margin-bottom: 10px;
+    line-height: 1.5;
+}
+
+.new-list-item .info {
+    color: #888;
+}
