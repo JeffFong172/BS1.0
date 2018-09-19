@@ -4,13 +4,42 @@ img {
     border-radius: 5px;
 }
 
+nav {
+    margin-bottom: 15px;
+}
+
+a:hover {
+    text-decoration: none;
+}
+
+.new-list-item {
+    padding-bottom: 15px;
+    padding-top: 15px;
+    border-bottom: 1px solid #eee;
+}
+
+.new-list-item:first-child {
+    padding-top: 0;
+}
+
 .new-list-item .title {
+    display: block;
+    color: #444;
     font-size: 18px;
     font-weight: bold;
     margin-bottom: 10px;
     line-height: 1.5;
 }
 
+.new-list-item .title:hover {
+    color: #337ab7;
+}
+
 .new-list-item .info {
     color: #888;
+}
+
+.avatar img {
+    display: inline-block;
+    width: 18px;
 }
