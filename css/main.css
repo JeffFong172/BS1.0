@@ -43,3 +43,42 @@ a:hover {
     display: inline-block;
     width: 18px;
 }
+
+.search {
+    background-color: rgba(0, 0, 0, 0.05);
+    margin-top: 15px;
+    padding: 15px 0;
+}
+
+.report {
+    font-size: 130%;
+}
+
+.simple-news {
+    margin-top: 10px;
+    background-color: rgba(0, 0, 0, 0.05);
+}
+
+.title {
+    font-size: 120%;
+    font-weight: bold;
+    padding: 10px 15px;
+}
+
+.list .item {
+    padding: 100px, 15px;
+    margin: 0 15px;
+    font-size: 80%;
+}
+
+.list .item .news-title {
+    padding-bottom: 8px;
+}
+
+.list .item .desc {
+    color: #999;
+}
+
+.list .item:hover {
+    background-color: rgba(0, 0, 0, 0.1);
+}
