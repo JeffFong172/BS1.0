@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>普通HTML</title>
+</head>
+
+<body>
+    <nav class="navbar navbar-expand-sm navbar-dark bg-dark" ">
+        <div class="container ">
+            <a href="base.html " class="navbar-brand ">
+                <img src="../img/logo.png " alt="logo " width="50px ">
+            </a>
+            <ul class="navbar-nav mr-auto ">
+                <li class="nav-item ">
+                    <a href="# " class="nav-link ">Link1</a>
+                </li>
+                <li class="nav-item ">
+                    <a href="# " class="nav-link ">Link1</a>
+                </li>
+                <li class="nav-item ">
+                    <a href="# " class="nav-link ">Link1</a>
+                </li>
+            </ul>
+            <ul class="navbar-nav ml-auto ">
+                <li class="nav-item ">
+                    <a href="# " class="nav-link ">Link2</a>
+                </li>
+                <li class="nav-item ">
+                    <a href="# " class="nav-link ">Link2</a>
+                </li>
+            </ul>
+        </div>
+    </nav>
+    {% block main %} {% endblock %}
+    <link rel="stylesheet " href="../node_modules/bootstrap/dist/css/bootstrap.min.css ">
+    <link rel="stylesheet " href="../css/main.css ">
+    <script src="../node_modules/jquery/dist/jquery.min.js "></script>
+</body>
+
+</html>

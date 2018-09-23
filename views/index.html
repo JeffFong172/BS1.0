@@ -5,14 +5,14 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
-    <title>普通HTML</title>
+    <title>{{title}}</title>
 </head>
 
 <body>
     <nav class="navbar navbar-expand-sm navbar-dark bg-dark" ">
         <div class="container ">
-            <a href="base.html " class="navbar-brand ">
-                <img src="img/logo.png " alt="logo " width="50px ">
+            <a href="index.html " class="navbar-brand ">
+                <img src="../img/logo.png " alt="logo " width="50px ">
             </a>
             <ul class="navbar-nav mr-auto ">
                 <li class="nav-item ">
@@ -35,18 +35,10 @@
             </ul>
         </div>
     </nav>
-
+    <!--{% extends "base.html " %} {% block main %}-->
     <div class="container ">
         <div class="row ">
             <div class="col-sm-2 " ">
-        <!--<div class="list-group sidebar ">
-                    <a href="# " class="list-group-item active ">Link3</a>
-                    <a href="# " class="list-group-item ">Link3</a>
-                    <a href="# " class="list-group-item ">Link3</a>
-                    <a href="# " class="list-group-item ">Link3</a>
-                    <a href="# " class="list-group-item ">Link3</a>
-                    <a href="# " class="list-group-item ">Link3</a>
-                </div>-->
         <nav class="nav nav-pills flex-column nav-justified ">
             <div class="container ">
                 <ul class="navbar-nav ">
@@ -67,12 +59,12 @@
             <div class="news-list ">
                 <div class="new-list-item row ">
                     <div class="col-sm-5 ">
-                        <img src="img/news1.jpg " alt="news-1 ">
+                        <img src="../img/news1.jpg " alt="news-1 ">
                     </div>
                     <div class="col-sm-7 ">
                         <a class="title " href="# ">版权所有 (C) Microsoft Corporation。保留所有权利。</a>
                         <div class="info ">
-                            <span class="avatar "><img src="img/logo.png " alt="avatar "></span>
+                            <span class="avatar "><img src="../img/logo.png " alt="avatar "></span>
                             <span>陈泽鹏</span>·
                             <span>20k阅读</span>·
                             <span>3天前</span>
@@ -81,12 +73,12 @@
                 </div>
                 <div class="new-list-item row ">
                     <div class="col-sm-5 ">
-                        <img src="img/news1.jpg " alt="news-1 ">
+                        <img src="../img/news1.jpg " alt="news-1 ">
                     </div>
                     <div class="col-sm-7 ">
                         <a class="title " href="# ">版权所有 (C) Microsoft Corporation。保留所有权利。</a>
                         <div class="info ">
-                            <span class="avatar "><img src="img/logo.png " alt="avatar "></span>
+                            <span class="avatar "><img src="../img/logo.png " alt="avatar "></span>
                             <span>陈泽鹏</span>·
                             <span>20k阅读</span>·
                             <span>3天前</span>
@@ -95,12 +87,12 @@
                 </div>
                 <div class="new-list-item row ">
                     <div class="col-sm-5 ">
-                        <img src="img/news1.jpg " alt="news-1 ">
+                        <img src="../img/news1.jpg " alt="news-1 ">
                     </div>
                     <div class="col-sm-7 ">
                         <a class="title " href="# ">版权所有 (C) Microsoft Corporation。保留所有权利。</a>
                         <div class="info ">
-                            <span class="avatar "><img src="img/logo.png " alt="avatar "></span>
+                            <span class="avatar "><img src="../img/logo.png " alt="avatar "></span>
                             <span>陈泽鹏</span>·
                             <span>20k阅读</span>·
                             <span>3天前</span>
@@ -110,50 +102,50 @@
             </div>
         </div>
         <div class="col-sm-3 ">
-            <div class="search-bar">
-                <input type="search" class="form-control">
+            <div class="search-bar ">
+                <input type="search " class="form-control ">
             </div>
-            <div class="card search">
-                <div class="row">
-                    <div class="col-xl-4">
-                        <img src="img/logo.png" alt="Report">
+            <div class="card search ">
+                <div class="row ">
+                    <div class="col-xl-4 ">
+                        <img src="../img/logo.png " alt="Report ">
                     </div>
-                    <div class="col-xl-8">
-                        <div class="report">有害信息举报专区 </div>
+                    <div class="col-xl-8 ">
+                        <div class="report ">有害信息举报专区 </div>
                         <div>电话：12345</div>
                     </div>
                 </div>
             </div>
-            <div class="card simple-news">
-                <div class="title">
+            <div class="card simple-news ">
+                <div class="title ">
                     24小时热搜
                 </div>
-                <div class="list">
-                    <div class="item">
-                        <div class="news-title">Lorem adipisicing elit. Consequuntur aut</div>
-                        <div class="desc">8.9万次播放 ⋅ 3367评论</div>
+                <div class="list ">
+                    <div class="item ">
+                        <div class="news-title ">Lorem adipisicing elit. Consequuntur aut</div>
+                        <div class="desc ">8.9万次播放 ⋅ 3367评论</div>
                     </div>
-                    <div class="item">
-                        <div class="news-title">Lorem adipisicing elit. Consequuntur aut</div>
-                        <div class="desc">8.9万次播放 ⋅ 3367评论</div>
+                    <div class="item ">
+                        <div class="news-title ">Lorem adipisicing elit. Consequuntur aut</div>
+                        <div class="desc ">8.9万次播放 ⋅ 3367评论</div>
                     </div>
-                    <div class="item">
-                        <div class="news-title">Lorem adipisicing elit. Consequuntur aut</div>
-                        <div class="desc">8.9万次播放 ⋅ 3367评论</div>
+                    <div class="item ">
+                        <div class="news-title ">Lorem adipisicing elit. Consequuntur aut</div>
+                        <div class="desc ">8.9万次播放 ⋅ 3367评论</div>
                     </div>
-                    <div class="item">
-                        <div class="news-title">Lorem adipisicing elit. Consequuntur aut</div>
-                        <div class="desc">8.9万次播放 ⋅ 3367评论</div>
+                    <div class="item ">
+                        <div class="news-title ">Lorem adipisicing elit. Consequuntur aut</div>
+                        <div class="desc ">8.9万次播放 ⋅ 3367评论</div>
                     </div>
                 </div>
             </div>
         </div>
         </div>
         </div>
-
-        <link rel="stylesheet " href="node_modules/bootstrap/dist/css/bootstrap.min.css ">
-        <link rel="stylesheet " href="css/main.css ">
-        <script src="node_modules/jquery/dist/jquery.min.js "></script>
+        <!--{% endblock %}-->
+        <link rel="stylesheet " href="../node_modules/bootstrap/dist/css/bootstrap.min.css ">
+        <link rel="stylesheet " href="../css/main.css ">
+        <script src="../node_modules/jquery/dist/jquery.min.js "></script>
 </body>
 
 </html>
