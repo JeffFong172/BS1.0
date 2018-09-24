@@ -66,8 +66,8 @@ a:hover {
 }
 
 .list .item {
-    padding: 10px, 15px;
-    margin: 0 15px;
+    padding: 0px, 15px;
+    margin: 0px 15px;
     font-size: 80%;
 }
 
@@ -98,12 +98,32 @@ a:hover {
 .new-title {
     line-height: 1.5;
     margin-bottom: 20px;
+    padding-bottom: 15px;
+}
+
+.new-contain {
+    line-height: 1.5;
+}
+
+.new-contain p {
+    text-indent: 2em;
 }
 
 .news-status {
     color: #888;
 }
 
-.new-contain {
-    line-height: 1.5;
+.new-contain img {
+    padding-bottom: 10px;
+    padding-left: 0;
+    padding-right: 0;
+}
+
+.side-bar-card {
+    background-color: #eee;
+    padding-bottom: 15px;
+}
+
+.card-title {
+    padding: 15px;
 }
